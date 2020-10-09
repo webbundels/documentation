@@ -13,7 +13,7 @@
     </div>
 
     <div id="documentation_holder">
-        @if (strpos(Auth::user()->email, '@webbundels.nl') !== false)
+        @if (Auth::user()->documentation_editable)
             <div class="button-holder">
                 <a id="new_chapter_button" class="styled-button" href="{{ route('documentation.create') }}">Nieuw hoofdstuk</a>
                 <button class="styled-button" data-edit-button>Volgorde wijzigen</button>
