@@ -1,0 +1,28 @@
+{
+    "name": "webbundels/documentation",
+    "description": "Documentation crud package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick van Leeuwen",
+            "email": "nick@webbundels.nl"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "webbundels\\documentation\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "webbundels\\documentation\\DocumentationServiceProvider"
+            ]
+        }
+    }
+}
