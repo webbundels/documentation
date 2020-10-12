@@ -1,6 +1,6 @@
 <?php
 
-namespace webbundels\documentation\Models;
+namespace Webbundels\Documentation\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;

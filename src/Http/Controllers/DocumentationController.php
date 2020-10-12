@@ -1,18 +1,18 @@
 <?php
 
-namespace webbundels\documentation\Http\Controllers;
+namespace Webbundels\Documentation\Http\Controllers;
 
 use Illuminate\Support\Arr;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\App;
-use webbundels\documentation\Models\DocumentationChapter;
-use webbundels\documentation\Http\Requests\EditDocumentationRequest;
-use webbundels\documentation\Http\Requests\ViewDocumentationRequest;
-use webbundels\documentation\Http\Requests\StoreDocumentationRequest;
-use webbundels\documentation\Http\Requests\CreateDocumentationRequest;
-use webbundels\documentation\Http\Requests\DeleteDocumentationRequest;
-use webbundels\documentation\Http\Requests\UpdateDocumentationRequest;
-use webbundels\documentation\Http\Requests\ChangeOrderDocumentationRequest;
+use Webbundels\Documentation\Models\DocumentationChapter;
+use Webbundels\Documentation\Http\Requests\EditDocumentationRequest;
+use Webbundels\Documentation\Http\Requests\ViewDocumentationRequest;
+use Webbundels\Documentation\Http\Requests\StoreDocumentationRequest;
+use Webbundels\Documentation\Http\Requests\CreateDocumentationRequest;
+use Webbundels\Documentation\Http\Requests\DeleteDocumentationRequest;
+use Webbundels\Documentation\Http\Requests\UpdateDocumentationRequest;
+use Webbundels\Documentation\Http\Requests\ChangeOrderDocumentationRequest;
 
 class DocumentationController extends Controller
 {

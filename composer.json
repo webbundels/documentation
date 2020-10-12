@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "webbundels\\documentation\\": "src/"
+            "Webbundels\\Documentation\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "webbundels\\documentation\\DocumentationServiceProvider"
+                "Webbundels\\Documentation\\DocumentationServiceProvider"
             ]
         }
     }
