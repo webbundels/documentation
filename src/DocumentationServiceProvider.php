@@ -1,6 +1,6 @@
 <?php
 
-namespace Webbundels\Documentation;
+namespace Webbundels\documentation;
 
 use Illuminate\Support\ServiceProvider;
 
