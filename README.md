@@ -17,7 +17,7 @@ php artisan migrate
 2) Write logic in this method that determines if the user can view the documentation page.
 
 ```php
-public function getDocumentationViewableAttribute() :boolean
+public function getDocumentationViewableAttribute() :bool
 {
     return $this->can('view_documentation');
 }
@@ -28,7 +28,7 @@ public function getDocumentationViewableAttribute() :boolean
 2) Write logic in this method that determines if the user can edit the documentation page.
 
 ```php
-public function getDocumentationEditableAttribute() :boolean
+public function getDocumentationEditableAttribute() :bool
 {
     return $this->can('edit_documentation');
 }
