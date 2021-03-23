@@ -33,8 +33,11 @@ class DocumentationController extends Controller
 
     public function store(StoreDocumentationRequest $request)
     {
+        $data = $request->all();
+        $data['sequence'] = DocumentationChapter::max('sequence')+1;
+
         $documentationChapter = new DocumentationChapter();
-        $documentationChapter->fill($request->all());
+        $documentationChapter->fill($data);
         $documentationChapter->save();
 
         return redirect()
