@@ -40,8 +40,9 @@ if (document.getElementById('documentation_index') !== null) {
         documentationEle.innerHTML = '';
         tableOfContentsEle.innerHTML = '';
         
-
-        document.getElementById('new_chapter_button').style.display = (edit ? 'none' : 'block');
+        if (document.getElementById('new_chapter_button')) {
+            document.getElementById('new_chapter_button').style.display = (edit ? 'none' : 'block');
+        }
 
         for (let index in chapters) {
             let chapter = chapters[index];
